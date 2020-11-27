@@ -1,0 +1,226 @@
+
+nav{
+    display: grid;
+    grid: 30%;
+    width: 100%;
+    height:100px; 
+    background-color:pink;
+    
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+body
+{
+    background-image: url("img/clouds.jpg.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;    
+    background-attachment: fixed;
+    background-color: paleturquoise;
+    background-position: center;
+}
+
+
+
+
+.wrapper1 {
+     margin: 0 auto;
+     width: 1000px;
+     color: white;
+}
+
+
+
+ul{
+    margin-left: 69px; 
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    float: left;
+    line-height: 100px; 
+}
+
+ul li a{
+    display: block;
+    text-decoration: none;
+    font-family:  'Courier New', Courier, monospace; 
+    font-size: 18px;
+    color:white;
+    padding: 0 20px;
+}
+
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    color:orange;
+    text-align: center;
+    line-height: 100px;  
+}
+
+h3{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color:black;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+article
+{
+    text-align: center; 
+    font-size: 26px;
+    color: black;
+    padding:18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    
+}
+
+.jobox
+{
+  background-color:orange;
+  width: 50%;
+  border: 15px solid palevioletred;
+  padding: 40px;
+  margin: 100px auto;
+  
+  
+    
+}
+
+ol
+{
+    margin: 69px;
+   
+    
+}
+
+ol li
+{
+
+ color: yellowgreen;
+ font-size: 20px;
+ font-family: 'Times New Roman', Times, serif;
+ 
+}
+
+footer
+{
+    display: flexbox;
+    color: pink; 
+}
+
+
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid orchid; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  
+  input[type=submit] {
+    background-color: paleturquoise;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color:blue;
+  }
+  
+  
+  .container {
+    border-radius: 5px;
+    background-color:palegreen;
+    padding: 20px;
+  }
+
+
+  .contactbox 
+  {
+      
+      color: black;
+      text-align: center;
+      padding: 18px;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bolder;
+  }
+
+  .footer
+  {
+    font-family: 'Courier New', Courier, monospace;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: pink;
+    color: white;
+    text-align: center;
+  }
+
+  .intonnation 
+  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+  }
+
+  .star
+  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+  }
+
+  .usb
+  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+  }
+
+  .potrait
+  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;  
+  }
+
+  header 
+  {
+      font-size: 30px;
+      font-family: 'Courier New', Courier, monospace;
+      color:palevioletred;
+      text-align: center;
+      text-decoration: skyblue;
+      padding: 48px;
+      font-weight: bolder;
+  }
